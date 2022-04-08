@@ -8,7 +8,7 @@ pipeline {
     stages {
       stage('fetch_latest_code') {
         steps {
-          git credentialsId: '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', url: 'https://github.com/PrashantBhatasana/terraform-jenkins-ec2'
+          git credentialsId: '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', url: ''
         }
       }
 
